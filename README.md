@@ -31,5 +31,9 @@ For each pass of the input states along the task dimension `0`, the output produ
 
 By calling the method `is_constructor`, the instance will return a boolean variable.
 
-Since the object is linear, we can have an indirect access to the task attributes via setting up an observer system and a master console which measures the observer states and keeps the device in constant pattern.
+Since the object is linear, we can have an indirect access to the task attributes via setting up an observer system and a master console which measures the observer states and keeps the system properties conserved throughout.
 
+Create a task on the master whose input through running a query at specified observer device, permutes the field properties and returns the state of the device under the induced disturbance.
+
+`injection = torch.rand(512, 2).requires_grad == True`
+`
