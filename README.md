@@ -3,6 +3,7 @@ Initial Order
 
 `load_group`
 `attach_substrate`
+`build_propagator`
 
 **Progression**
 
