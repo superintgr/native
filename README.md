@@ -55,13 +55,6 @@ To define a clock, a program may construct a process which has the responsibilit
 
 For example, the fastest turn-arounds could be used to measure the fastest constructor of some other process that happens in parallel. When there are many possible constructor for a given task, use the timer constructors to filter the constructions that conform to the simulteneous time keeping dynamics.
 
-```
-clock : [minimum, maximum, step]
-timer : [start, cause, terminate]
-
-```
-
-
 [David Duetsch][Constructor theory][Philosophy of Constructor theory][3.12][Time]
 
 In both quantum theory and general relativity, time is treated anomalously. The problem in both theories is that time is not among the entities to which the theory attributes objective existence (namely quantum observables and geometrical objects respectively), yet those entities change with time.
@@ -97,3 +90,27 @@ Define ‘faster’ such that if that composite constructor is capable of perfor
 Then, if C is a constructor for T[R] such that no other constructor for T[R] is faster than it, it can act as a timer.
 
 For instance, if the subsidiary theory was relativity, C would time a period, t = l / c; where c is the speed of light.
+
+```
+timer : [T, T‘]
+. T is <timer:0)
+. T‘ is <timer:1>
+
+state : [x, y]
+. x is <state of object>
+. y is <state of object>
+
+object : [R[x][y], R‘[y][x]]
+.. (R and R‘) are <two instances with fixed length>
+
+task : [x -> y, y -> x]
+. x goes <to other>
+. y goes <to other>
+
+constructor : [C[1], C[2]]
+. C[1] of T[R]
+. C[2] of T[R‘]
+
+composition : [*task, **task]
+. *task (xor) **task
+```
