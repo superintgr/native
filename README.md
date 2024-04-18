@@ -45,9 +45,55 @@ callable : [github push/pull/clone, cloud-bucket upload/create/download/readout,
 pipeline : []
 ```
 
-**Example: Python Translation Process**
+**Clocks**
 
-- python language constructs
-- python interpreter program
-- byte code interpretation
-- 
+1. Clocks are not used in a traditional sense. Clock functions should be treated as programming tasks.
+
+2. A clock is composed of timed events that depends on time being caused to elapsed at some location within a range definining notion of interval. The interval between any two measurements define a trajectory where certain work has been put in, in order to bring the lowest reading in the range to ultimately sample non-invarient aspects of the time-like procedures.
+
+To define a clock, a program may construct a process which has the responsibility of measuring certain physical properties and upon each successive measuement the process reports backs to an internal function which logs the time differences. Continue the same process with many competing moment carriers where the intervals between the k-fastest and k-slowest could be used to substitute all of the clock related tasks.
+
+For example, the fastest turn-arounds could be used to measure the fastest constructor of some other process that happens in parallel. When there are many possible constructor for a given task, use the timer constructors to filter the constructions that conform to the simulteneous time keeping dynamics.
+
+```
+clock : [minimum, maximum, step]
+timer : [start, cause, terminate]
+
+```
+
+
+[David Duetsch][Constructor theory][Philosophy of Constructor theory][3.12][Time]
+
+In both quantum theory and general relativity, time is treated anomalously. The problem in both theories is that time is not among the entities to which the theory attributes objective existence (namely quantum observables and geometrical objects respectively), yet those entities change with time.
+
+So there is widespread agreement that there must be a way of treating time ‘intrinsically’ (i.e. as emerging from the relationships between physical objects such as clocks) rather than ‘extrinsically’ (as an unphysical parameter on which physical quantities somehow depend). But this is difficult to accommodate in the prevailing conception, every part of which (initial state; laws of motion; time-evolution) assumes that extrinsic status.
+
+Attempts have been made to reformulate both theories with intrinsic time (Page & Wootters 1983; Barbour 1999, 2012), but have not yet achieved much generality.
+
+In the constructor- theoretic conception, it is both natural and unavoidable to treat both time and space intrinsically: 
+
+.. they do not appear in the foundations of the theory but are emergent properties of classes of tasks whose substrates include ‘rods’ and ‘timers’.
+
+(That constructor theory allows for serial composition to be noncommutative, and for a task and its transpose to be different, may be considered a built-in direction of time, but not a time parameter.)
+
+Extrinsically, a timer might be defined as a substrate T[l] which, if left isolated in a suitable initial state, emits some information when a time t has passed. But that condition about time ‘passing’ is not constructor-theoretic. 
+
+Some constructor-theoretic content can be added by noting that there is an interoperability law for timers:
+
+.. any timer T[t] is guaranteed to be replaceable, in any construction, by any other timer T[t‘] with the same parameter t, without changing the task that the constructor performs.
+
+A fully intrinsic constructor-theoretic conception of timers would be in terms of tasks that take time.
+
+For example, let R be a non-conducting rod of length l with an additional electron.
+
+Let x and y be states in which the electron is located at either end of R, and let C[1] and C[2] be constructors for the task
+
+T[R] = {x -> y, y -> x}.
+
+Associate them in parallel, with an additional apparatus ensuring that when C[1] halts, it incapacitates C[2].
+
+Define ‘faster’ such that if that composite constructor is capable of performing the task T[R] ⊗ T[R‘], but the same does not hold if C[1] and C[2] are interchanged, then C[2] is faster than C[1].
+
+Then, if C is a constructor for T[R] such that no other constructor for T[R] is faster than it, it can act as a timer.
+
+For instance, if the subsidiary theory was relativity, C would time a period, t = l / c; where c is the speed of light.
