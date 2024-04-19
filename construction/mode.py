@@ -41,4 +41,85 @@ possibles += [
 # What requires the stack of layers to be active?
 # In what state collected through master describe the underlying causal process for which the N step evolution set in?
 
+"""
+Room acoustics is a subfield of acoustics dealing with the behaviour of sound in enclosed or partially-enclosed spaces. The architectural details of a room influences the behaviour of sound waves within it, with the effects varying by frequency. Acoustic reflection, diffraction, and diffusion can combine to create audible phenomena such as room modes and standing waves at specific frequencies and locations, echos, and unique reverberation patterns.
 
+The way that sound behaves in a room can be broken up into four different frequency zones:
+
+1. The first zone is below the frequency that has a wavelength of twice the longest length of the room.
+- In this zone, sound behaves very much like changes in static air pressure.
+
+2. Above that zone, until wavelengths are comparable to the dimensions of the room,[while not loop] room resonances dominate. [++]
+
+- This transition frequency [frequency[transition]] is popularly known as the Schroeder frequency, or the cross-over frequency, and it differentiates the low frequencies [delta (low/mid/high)] which create standing waves [waves[standing]] within small rooms from the mid and high frequencies.[frequency[mid:, high]]
+
+3. The third region which extends approximately 2 octaves is a transition to the fourth zone.
+
+- In the fourth zone, sounds behave like rays of light bouncing around the room.
+
+
+
+"""
+
+
+
+
+class Channel:
+    def send(self, message, address):
+        # Sign into the network dictionary and search for the address given
+        # When found, send the pass from this to that with the message being the action
+        pass
+
+    def insert(self, path):
+        # Connect the path inflow to the current stack pointer to merge its contents
+        pass
+
+    def pan(self, amount):
+        # Apply panning amount to all of the dependent signal pathways.
+        pass
+
+    def switch(self):
+        # Switch the polarity to the opposite of what is effective
+        pass
+
+    def fade(self, amount):
+        # Apply fader by the amount and make sure all pathways are transformed
+        pass
+
+    def mute(self):
+        # Mute/Unmute based on the effective boolean value.
+        pass
+
+    def seperate(self, amount):
+        # Apply stereo seperation by the amount
+        pass
+
+    def direct_injection(self, source):
+        # Plugin the source edge to the channels line level input port.
+        pass
+
+    def side_chain(self, other, amount):
+        # Construct side chained state with memory shared between the two neighboring channels by given amount.
+        pass
+
+    def mid_chain(self, sink):
+        # Attach the sink of the neighbors side chained state.
+        pass
+
+    def disable_effect(self):
+        # Turns of all the contributions from the channel modules and conserve the dry state only.
+        pass
+
+    def enable_effect(self):
+        # Opposite of 'disable_effect' and restores wet state.
+        pass
+
+    def configure_input(self, index):
+        # Sets the input source from driver configuration and selects the index from the device list.
+        pass
+
+    def configure_output(self, index):
+        # Sets the output sink in driver configuration and selects the index from the device list.
+        pass
+
+    
