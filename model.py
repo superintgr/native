@@ -41,3 +41,38 @@ Enables the following features:
 [dimensionality] environment constructs a three-dimensional structure
 
 Any programmable structure can interact with the environment and their unique properties will be held at the local substrate, where their intrinsic properties are entirely separate from their embedded information.
+"""
+
+
+class Environment(object):
+    """
+    Standard wrapper for environment variables.
+    
+    Fundamental modules:
+    -- reverberation
+    -- console
+    -- [hidden]
+    
+    **Reverberation** module is the primary message pathway between network nodes.
+    .. The environment always keeps a constant temperature and thermodynamic balance between changing states due to interactions from different regions.
+    .. In order to maintain a static state, the reverberation configuration is tuned in a certain direction.
+    .. The reflective surfaces are generically shaped so that the normal modes are exposed and thereby allowing interacting instances to occur at normal intervals.
+    """
+    
+    def forward(self, *args, **kwargs):
+        """
+        Incoming signal causes impulse responses within the substrate regions.
+        The responsive regions are defined by the wavelength of comparable dimensions where the natural resonance occurs.
+        The room modes determine what specific reverberations are observed.
+        
+        Messages are transmitted via this dynamical process where the receiver distinguishes the signal using their respective channels.
+        The medium keeps a copy of the message and transfers the information to other sites.
+        """
+        pass
+    
+    def sample(self, *args, **kwargs):
+        """
+        Sampling is used to measure states of interest.
+        The effectiveness of the analysis depends on the individual who has the proper knowledge to distinguish the expected outcome from the naturally occurring gradient that takes place inside the substrate.
+        """
+        pass
