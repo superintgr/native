@@ -122,4 +122,3 @@ class Channel:
         # Sets the output sink in driver configuration and selects the index from the device list.
         pass
 
-    
