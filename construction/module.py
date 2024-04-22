@@ -31,7 +31,7 @@ class Distance(Constructor):
     """
     pass
 
-class Definition(Distance, Constructor):
+class Definition(Distance):
     """
     If there is a way to define something, one of them has to give names to all the elementary distances in terms of their image contributions.
 
@@ -41,6 +41,19 @@ class Definition(Distance, Constructor):
     If each integer valued distances constitute a unit solution being discovered then the entire picture would contain all of the ways solutions and problems could emerge/reduce/swap/converge/limit each others images.
     Whether the series of integer valued positions reduces problem into soluble tasks or makes the problem harder through insoluble tasks depend on the space between each interval along the series.
 
-    There are infinitely many real numbers between any two intervals and all states that covers the entire distance or gets stuck within the same interval takes their forms over these transitionary zones.
-    
+    There are infinitely many real numbers between any two intervals and all states that covers the entire distance or gets stuck within the same interval takes their forms over these transitionary zones.   
     """
+    pass
+
+class Problem(Definition):
+    """
+    Problem must be defining its properties in expectation of those properties start composing associated attributes to cause soluble properties to be found.
+    Solution would have to be a disjoint problem object that composes its attributes to constitute a discoverable form through which the two exchanges knowledge via differentiating each others objective forms.
+
+    We could assert the following principle:
+    .. if we have two columns of binary values where each of them carries the opposite state of the other:
+    .... we can setup a logical resolution independently for each of the channels own reading of the binary amplitude.
+
+    When inside one substrate there is a binary 1 along a row, a process could be triggered on the condition [1, 0]. Similarly the other substrate could use [0, 1] in its own channel.
+
+    Now if each of the channels encode their process states to construct a third state then [1, 0, 0] and [0, 1, 0] would constitute a valid process where [1, 0, 0] -> [0, 1, 0] -> [0, 0, 1] -> [0, 1, 0] -> [1, 0, 0]
