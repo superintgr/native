@@ -1,7 +1,8 @@
 import torch
 import json
 
-# model = torch.nn.Transformer(
+"""
+model = torch.nn.Transformer(
     d_model=512,
     nhead=8,
     num_encoder_layers=6,
@@ -18,7 +19,6 @@ import json
     device=None,
     dtype=None)
     
-"""
 These models would not allow sufficient learning to occur, as their primary focus is on the scalability of the system.
 
 Here are some problems:
@@ -26,6 +26,8 @@ Here are some problems:
 -- cannot process integer or long type
 -- very large
 """
+
+
 
 """Proposed architecture:
 
