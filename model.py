@@ -43,6 +43,7 @@ Enables the following features:
 Any programmable structure can interact with the environment and their unique properties will be held at the local substrate, where their intrinsic properties are entirely separate from their embedded information.
 """
 
+from reverberation import Reverb
 
 class Environment(object):
     """
