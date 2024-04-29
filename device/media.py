@@ -17,3 +17,15 @@ if they share a common Z, localization is enforced.
 for (name, state) in zip(names, states):
     file = namespace[name]
     file.update(state)
+
+
+# Decode the first k tokens
+state = filter(message)
+weights, indices = state.topk(minimum_length)
+string = decode(indices)
+
+# Decode the second h tokens
+state = filter(weights)
+...
+
+# Concat the two and reproduce the code
