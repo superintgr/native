@@ -17,3 +17,16 @@ class MicrophoneStream:
     def __exit__(self, type, value, traceback):
         self._audio_stream.stop()
         self._audio_stream.close()
+
+
+
+from media import global
+from reverberation import Reverb
+
+class File:
+    def update(self, state):
+        self.state *= state
+    
+    def reconstruct(self):
+        # Use the recurrent memory to build the core of the identity code.
+        pass
