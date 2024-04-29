@@ -79,3 +79,22 @@ class Environment(object):
         The effectiveness of the analysis depends on the individual who has the proper knowledge to distinguish the expected outcome from the naturally occurring gradient that takes place inside the substrate.
         """
         pass
+        
+        
+"""Pipeline
+
+We have a medium and it covers the following zones:
+1. Sender/Transmitter/Receiver
+2. Checkpoints/Nodes/Antinodes
+
+There are devices embedded across the network that constitute mediated regions.
+Any changes in any part of the medium corresponds to changes reflected at the labeled network regions.
+Correspondingly the following is:
+
+tau => {g -> C[tau]} is possible with side effects.
+    
+if tau is possible at all:
+    there exists (h):
+        return (h) (tau * {g -> h}) is possible.
+"""
+
