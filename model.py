@@ -98,3 +98,11 @@ if tau is possible at all:
         return (h) (tau * {g -> h}) is possible.
 """
 
+
+Constructor for tau (requires generic resource):
+.. construct(tau) from generic {g : !g}
+
+
+What is generic resource and how is it defined?
+.. For task that is defined, its construction is a description of some already defined source transforming into some other possible to be defined source.
+.. 
