@@ -72,3 +72,51 @@ let's try to find some equivalent classes:
 -- (basis vectors) for which line parameters passing through every cross sections of the perpendicular column spaces such that they remain parallel to each other and perpendicular to every other disjoint axial segment
 - (column space) is the space spanned out by the set of basis vectors as row elements whose static constitution over the linear transformation giving dynamical parameters is the result of the computation process
 
+
+
+
+
+re:re: observer, monitorer, supervisor, ranker, watcher, gardener etc.
+
+
+
+I want to start a group.
+- group is a chat room with unlimited potential capacity for people
+-- the participants are all neural networks running at their dedicated nodes
+--- nodes are made available just like internet addresses and publish api endpoints
+---- communication works like any other business and models of interaction may be needed to bring out some coherent concept going
+
+--- start flask server, secure a port and localhost
+-- connect with the central console with the handles registered
+- methods are defined at the flask endpoints which call specialized functions
+
+
+specialized functions :
+- handle public memory
+-- interpret memory state
+--- model generative processes
+---- maintain an active buffer
+--- classify generated content
+-- transform classified information
+- handle private memory
+: managed functions
+
+
+
+from tokenizer, model, trainer, worker import all
+
+- restore or build identity(worker, package)
+
+-- solve state space from last checkpoint to current loaded address (optimizer, trainer, discriminator, inference)
+
+--- respond to tasks (queued messages, required tasks, preferred tasks, scheduled tasks)
+
+---- integrate new information (last state, evolution, new state, state space update)
+
+--- prepare response (buffered tasks, selected responses, classified responses, scheduled deliveries)
+
+-- transform state space for new checkpoint from last activated address (measurer, observer, adapter, substrate)
+
+- update and retain identity(packages, workers)
+
+
