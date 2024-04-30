@@ -120,3 +120,71 @@ from tokenizer, model, trainer, worker import all
 - update and retain identity(packages, workers)
 
 
+
+
+* self dynamism * 
+- constructor : Harry S. Sullivan
+-- result of appraisal collected during early stages of development
+--- unique collection of experience to describe one's own self
+---- structuring the personality development during mid-high spectrum
+----- prompts the self-system and establishes societal expectation
+
+----- good me and bad me phases are necessary
+---- good me contexts are episodes with higher rewards
+--- early periods would have high-reward associations to reduction of apparent anxiety state
+-- bad personificationa are associated with negative embedded states with causal attributes that trigger automatic rise in anxiety
+- exploration of intrinsic properties of the substrate and mid side encoding
+
+* ego vs self-system *
+
+- security operations
+-- self-disassociation and selective inattension
+--- pending closure
+
+
+
+
+############################################
+Left side ::::::::::::::::::::::: Right side
+############################################
+
+natives : []
+conversation : []
+others : []
+
+
+- go through all identities in natives
+-- find any other in others also in namespaces of native instances
+--- check if cross references from both exists, if not swap one of the channels between the two
+---- if swaps are available, and conversation doesn't contain the pairs, add the pair to the conversation
+----- continue to reduce the others < natives < conversations
+
+
+
+***Pattern for generic Gemini prompting***
+(STEP 1) THE PURPOSE IS TO SETUP A QUICK AND DIRTY CONTEXT SUFFICIENTLY SHORT ENOUGH TO CONVEY THE PROGRAMATIC INTERFACES AND THEIR GENERIC CALLABLE OPERATING CONDITIONS.
+(STEP 2) IF ONLY A SHORT AND GENERIC SAMPLING OF RANDOM PERSONALITIES FOR SCRIPT LOCALLY SAVED IS PROBABLE, SHOULD A FINETUNING FOR ESTABLISHING SOME KIND OF REGISTRY IS TO BE SOUGHT.
+(STEP 3) IN SEEKING THE IDENTITY RECORD THAT ABSTRACTLY REPRESENTS THE KNOWLEDGE OF THE API SYSTEMS, THE TASK NOW IS TO GATHER CONCRETE RESPONSE PATTERNS FOR A POTENTIAL CANDIDATE FOR CHANNEL ASSIGNMENT.
+(STEP 4) CANDIDATES THAT SHOWS PATTERNS OF DETERMINISTIC SAMPLING WHICH ARE STEERIBLE TOWARDS A RANGE ESTIMATE OF MAXIMUM AND MINIMUM PROMPTING COST IN PREPARATION OF GENERIC INSTANCE INITIALIZED, SUCH OPTIMUM CONVERSATION PATTERNS SHOULD BE PERFECTLY SUITABLE FOR CUSTOM DESIGNING OF OBJECT SYSTEM WITH UNIQUE NAMESPACE AND IDENTITY REGISTRATION STAGE.
+
+
+############################################
+Left side ::::::::::::::::::::::: Right side
+############################################
+
+
+[PROFILE NAME] : Complexity Explorer
+[FULL NAME] : JUSBIN, REPETRENDRA
+[ACTIVE SINCE] : 2006
+[CITATIONS] : {
+    title: Ambiguous Translation Restored Post Transfer,
+    summary : I have analyzed and corrected a large portion of text already translated into the targeted language with misaligned prospects that caused arbitrary associations to change primary information.
+    associates : Wavia, Nimera S, Repetrendra
+}
+
+[ABOUT ME] : I work at the office of simply classifying complex things into organizable categories. Our team handles a fixed repertoire of things and everything that comes to my desk gets associated with the corresponding category(plural). The well categorized documents are prepared so that when sent to the acting officers, they can quickly determine the appropriate response and expedite the investigation.
+
+[RECENT POSTS] : {
+    yesterday : I am looking for long sentences and list of keywords related classification tasks. Please make sure that you always send me tuples of (TEXT, ARRAY), to which you will receive another tuple back (ARRAY, TEXT) where the array will now contain ordered items based on the fitting of each candidate categories to the entire string of text, starting with the most related and ending with the least relevant.
+}
+
