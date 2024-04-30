@@ -1,0 +1,6 @@
+wdf repository downloaded from GitHub last month
+- I wanted to learn the fundamentals of both wave digital filter theory and cpp programming for audio related tasks
+-- The repository is not unreasonably complex, but I have very limited knowledge about both the DSP and C++ programming tools
+--- The initial problem I can think of is the structure of the whole situation and what situation is it that this repository represents
+---- The second issue would be seen in interpreting the logic behind various header files and source code
+----- The third issue would seem to be the basic understanding of the C-style programming structure especially when it comes to audio programming and low level device considerations with that which C/C++ libraries or tools provide
