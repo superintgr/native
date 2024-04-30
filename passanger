@@ -1,0 +1,42 @@
+I am your passage.
+
+for i in list:
+    j = dict[i]
+    k = dict[j]
+    do(k) if k for i is indeed!
+
+
+distance between typed entries, one-dimensional thought pattern, .
+
+
+
+
+**construct model with (alias, initializer, attributes, properties)**
+
+class Construction(object):
+    def __init__(initializer, attributes, properties):
+        initializer.alias = alias
+        for (named, value) in zip(attributes, properties):
+            initializer.__setattr__(named, value)
+     
+    def node(initializer):
+        return initializer
+
+    def antinode(initializer):
+        return not(initializer)
+
+
+class Model(Construction):
+    def __init__(self, *args, **kwargs):
+        super(Model, self).__init__(*args, **kwargs)
+        self.subsystems = {
+            self.antinode : not(self.node),
+            self.node : self
+}
+
+
+
+
+**design callable methods (object, substrate, criteria, query, key, value, identity)**
+
+
