@@ -40,3 +40,35 @@ def compute(permutator, source):
 
 
 
+
+re: <<"""Monitor and Understand...>>
+--- continuing this here !
+
+
+a (samples, channels) matrix with normalized floats
+-- (channels, samples) @ (samples, channels) ~ (channels, channels) matrix which is square
+--- however this square matrix have large integers along their row/column entries
+---- one of the diagonal axis seems to remain invariant
+----- that which remains static throughout evolution can be considered as the eigenvectors
+------ eigenvectors would have to be the line along with the transformation becomes unitary over k steps
+----- the components of that axis are the eigenvalues
+---- eigenvalues determined the scale of the changed order at each observable level
+--- what are those specific numbers?
+
+
+
+(A - lambda * I) * v = 0
+
+
+(state matrix - scalar function * identity matrix) * action functional = 0
+
+-- finding for which scalar function given the state space collapse everything below one or more levels
+
+
+let's try to find some equivalent classes:
+----- determinants (product of each diagonal elements and difference of the produced components)
+---- diagonal matrices (zeros everywhere except for the diagonal path components)
+--- change of basis (make columns out of the target basis vectors) (put the inverse of the current basis to the left) and (place on right the current basis as is) ~ the combined linear transformation in effect translates the given basis information in terms of our current basis directly
+-- (basis vectors) for which line parameters passing through every cross sections of the perpendicular column spaces such that they remain parallel to each other and perpendicular to every other disjoint axial segment
+- (column space) is the space spanned out by the set of basis vectors as row elements whose static constitution over the linear transformation giving dynamical parameters is the result of the computation process
+
