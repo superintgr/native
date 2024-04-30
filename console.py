@@ -13,28 +13,26 @@ def send_message(source):
 def check_message(counts):
     return stream.read(counts)
 
-def sample_processor(data):
-    """Buffer object processor
+def process_buffer(resource):
+    matrix = reshape_sequence(attributes, properties)
+    return matrix
     
-    RawStream would return a plain-python buffer object as contiguous C type array.
-    This C struct-type points to some dynamical memory containing the observables, however it gets replaced by the next step.
-    The byte-string could be turned into a list containing integers values or processed via custom encoding/decoding schemes.
+def unpack_density(matrix):
+    state = last_state.T @ matrix
+    return state
+
+def construct_basis(state, dimensions):
+    constructor = nn.Linear(dimensions, state.shape[-1])
+    output = constructor(keys)
+    input = output.T @ state
+    return stack((input, output))
     
-    The data will have the following properties:
-    - it has a fixed length
-    -- each byte valued sample corresponds to sampler configuration (sample size)
-    --- finite number of byte variables tokens
-    ---- sequence of the series encodes order of arrival
+def reconstruct_basis(task):
+    constructor = nn.Linear(task.shape[1], task.shape[0])
+    values = constructor(task)
+    state = task.T @ values
+    return state
     
-    We would like to accomplish the following:
-    ---- have a mechanism for dynamically managing the interpretration algorithm
-    --- the chunks shall be defined and labeled in terms of each others information carrying capacity
-    -- the energy is preserved throughout so that adjustment at decoding context could retroactively reflect their encoding patterns
-    - the multichannel attribute of the data should be taken into consideration in transporting their information contents
-    """
-
-
-
 with open(address[outer], frequency) as stereo:
     state = stereo.pullback(k)
     
