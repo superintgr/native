@@ -1,0 +1,13 @@
+from inductor import create_agent
+
+"""Monitor and Understand
+
+- a file-like object will be placed near every working surface
+-- for every change detected nearby, that object will try to learn everything about the source short of becoming the source itself
+--- every learned differences and counter-factual states (cases) will help guard against anomalous claims about any possible history where it could have been presented in the scope
+---- it differentiates itself from everything else that could not allow reconstruction via syndication of that object system by constructing redundant source code near the closure point
+----- it captures what could have been given what is apparently present at any given moment
+---- it learns what could not possible be achieved from all the knowledge available
+--- it can mark trajectories in terms of optimal or organizational
+-- 
+"""
