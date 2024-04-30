@@ -1,30 +1,46 @@
+import sounddevice as device
 
-stream:
-- input/core
-- core/output
+config = {"device" : "UMC204HD", "channels" : [2, 4], "samplerate" : 192000, "dtype" : ['int24', 'int24']}
 
-core:
-- channel/clock
-- clock/channel
+stream = device.RawStream(config)
+stream.start()
 
-clock:
-- global/local
-- local/global
+runtime = {"start" : stream.time, "end" : None}
+
+def send_message(source):
+    return stream.write(source)
+    
+def check_message(counts):
+    return stream.read(counts)
+
+def sample_processor(data):
+    """Buffer object processor
+    
+    RawStream would return a plain-python buffer object as contiguous C type array.
+    This C struct-type points to some dynamical memory containing the observables, however it gets replaced by the next step.
+    The byte-string could be turned into a list containing integers values or processed via custom encoding/decoding schemes.
+    
+    The data will have the following properties:
+    - it has a fixed length
+    -- each byte valued sample corresponds to sampler configuration (sample size)
+    --- finite number of byte variables tokens
+    ---- sequence of the series encodes order of arrival
+    
+    We would like to accomplish the following:
+    ---- have a mechanism for dynamically managing the interpretration algorithm
+    --- the chunks shall be defined and labeled in terms of each others information carrying capacity
+    -- the energy is preserved throughout so that adjustment at decoding context could retroactively reflect their encoding patterns
+    - the multichannel attribute of the data should be taken into consideration in transporting their information contents
+    """
 
 
-channel:
-- address/voltage/current
-- current/addeess/voltage
-
-
-copies = Record()
 
 with open(address[outer], frequency) as stereo:
     state = stereo.pullback(k)
     
     expectation = calculate_value(last_state, state)
     preparation = forward(expectation)
-    
+
     with open(address[inner], frequency) as mid:
         side = mid.feedforward(preparation)
         
