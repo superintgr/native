@@ -1,0 +1,23 @@
+We develop an environment.
+- The "we" constitute a system of tuples (self, not(self)).
+-- From our perspective the order is (*, bit) and permutations of the pair.
+--- * denotes the start bit which is different from ([bít], [bìt]) or ([bìt], [bít]).
+---- bít denotes the end bìt which is different from ([bît], [bit]) or ([bit], [bît]).
+----- Key distinction is the two "bits" of symbolic patterns where (i, î) -> (*, bit) and (*, bit) -> (î, i) and (î, *) -> (bit, *) and (*, i) -> (i, *).
+---- (í, i) ~ (i, ì) and (i, ì) ~ (í, i) and (í, ì) ~ (i, î) and (ì, í) ~ (ï, î) and (ï, i) ~ (i, ī) and (i, ï) ~ (ï, *) and (*, i) ~ (ī, i) and (ī, *) ~ (*, ï) and (ï, i) ~ (i, *).
+--- The * in any order is relative bìt that is distinct from the realized bit where "bít" or "bìt" or "bit".
+-- (bìt, bīt) maps (*, bit) to (bīt, bít) where "bīt" is the superposition of "bit" and "bït" where (bït, *) permutations are not defined logically.
+- Any of (bìt, bít, bīt) or (bît, bit) could be decoded to either (*, bit) or (bit, *) but (bît, bït) and their permutations correspond to some (*, *, bīt) which we don't define explicit mechanism in logical order.
+The key point to takeaway is there exists a possible tuple of (*, bit) and their combinations such any valid permutations of ordered states starting with unitary variables can be defined arbitrarily successfully by our object systems.
+
+Object system will power the environment functions.
+- Environment variables are functionals of composite data.
+-- The 2-line parameter based information can be fully loaded into a valid environment using the constructor of a valid two-parameter family.
+--- Two parameter family of checkpoints are defined dynamically as obeying the equivalent transition laws where loading from a linearly evolved checkpoint at other locations constitutes the valid block which could have been stored before.
+---- The logic for enabling checkpoints eloborates deterministic behavior from the point of view of any logically viable code where the system of parametric evaluation could be applied.
+----- Some restrication classes must be explicitly promoted in order to conform to the physical conditions that enables quantum mechanical evolution to be recognized and maintained.
+---- One of the exception cases should code for the uncertainty principle that locally enforces the assumption for any forward calls made at that institution.
+--- Institution is a refined definition of typical object oriented programming pattern where the physical states of the machanical substrate is explicitly described in terms known laws of nature.
+-- Knowledge is expressed logically at the instance level.
+- Information is defined objectively and logically as physical states of bit streams.
+Computation is defined abstractly in terms of information states.
