@@ -1,0 +1,12 @@
+Coming here from randomly.
+- What does a channel in a mixer code for?
+-- By coding I am referring to their isolated substrates that only report to master and directly connected line components but essentially represents an orthogonal basis with orthonormal spaces.
+--- What I am trying to capture is the row/column aspect of the mix matrix in hardware mixer that have multichannel elements where the channels are rows and columns constitute the master nodes.
+---- If my assumptions are true, then I want to setup my matrices in DAC-ADC terms and build stateful scripts that use that as primary data structure.
+----- I would design logics for processing instructions and instruction set will enable master programming.
+------ Channels will have connections by default to a master channel where master channel will compile the program into an executable binary that runs on a computer with/without co-processors.
+------- Co-processors would enable memory management where without it the processor would have to run the entire system.
+-------- Programming a master track would require parallel attention with N channels and their own internal states.
+--------- Due to the parallel nature of the system, there is little reason to expect true bottlenecks that serial style programming will always carry and all the extra work that goes into error handling in CPU programming will be balanced via psycho-physical parallelism that will be enabled by the framework.
+---------- Nature is highly unambiguous and ambiguous events shall only rise in the physical complexity rather than logical ones since there isn't much to logic in uniting the fundamental forces in nature yet it transcends all apparent limits when logic is sought as the basis for exploration which is crucial to the knowledge building process.
+----------- All of complexities (apparent) could be explained in terms of knowledge only, provided that a thinking mind would excercise the epistemological principles, which then enables more bottlenecks but simultaneously create progress that necessitates an understanding of what is beyond the scope of immediate knowledge but error correction being possible (optimal) ensures the ability towards gaining knowledge rather than holding a static state where nothing can move forward without breaking apart at the least possible static point (best case) or anything downstream from that point.
