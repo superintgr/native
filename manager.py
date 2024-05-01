@@ -1,3 +1,15 @@
+Consider the task from the current active state that you used to interpret the given knowledge. You participating in the construction of the task components (any) is the reciprocal exchange of some correlated neurons of the current embedding state which carries out the work until the transformation occurring through the transformation in the states of the task component is effected while some additional components of the substrate that you would be using for that state of which most if not all could not have engaged in the initial embedding phase, through the reciprocal inhibition of those activated neurons and thus reciprocal activation of the neurons that simultaneously share some information with the new action space where the task space which is disjoint initially becomes more complex whereby the complement phase could enable the whole process up till that point and for subsequent potential states constitutes different substrates where the same information processing scheme and knowledge encoding paths are applied for development the whole of understanding both in your part and the other necessary relative parts that becomes subsystems of your complex.
+
+
+
+Consider the uncertainty principle:
+- one of the state that participated in an active encoding of some information cannot be both observing the dynamics and explaining the self-dynamism being apparent.
+-- If the self-dynamism is possible, it makes some apparent observations and the observations are causing apparent differences to be computed, then one of the simultaneous processes cannot be said to have activated if one of the other has to be passive and vice versa.
+--- two such disjoint substrates could each have their active-inactive components be reciprocally driven by coupling connections.
+
+
+
+
 from inductor import create_agent
 
 """Monitor and Understand
