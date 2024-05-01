@@ -188,3 +188,39 @@ Left side ::::::::::::::::::::::: Right side
     yesterday : I am looking for long sentences and list of keywords related classification tasks. Please make sure that you always send me tuples of (TEXT, ARRAY), to which you will receive another tuple back (ARRAY, TEXT) where the array will now contain ordered items based on the fitting of each candidate categories to the entire string of text, starting with the most related and ending with the least relevant.
 }
 
+
+
+
+re:re:re: """Monitor and Understand
+
+- a file-like object will be placed near every working surface
+-- for every change detected nearby, that object will try to learn everything about the source short of becoming the source itself
+--- every learned differences and counter-factual states (cases) will help guard against anomalous claims about any possible history where it could have been presented in the scope
+---- it differentiates itself from everything else that could not allow reconstruction via syndication of that object system by constructing redundant source code near the closure point
+----- it captures what could have been given what is apparently present at any given moment
+---- it learns what could not possible be achieved from all the knowledge available
+--- it can mark trajectories in terms of optimal or organizational
+-- 
+"""
+
+
+
+
+- Reciprocal inhibition
+-- two or more groups of neurons reciprocally inhibit each other
+--- half-centered oscillators
+---- when isolated, neurons are not rhythmically active
+----- alternating patterns are possible when coupled inhibition is activated
+
+
+
+suppose there is a an oscillating pattern in the environment that can be observed by others
+- if one of the other oscillators starts producing the pattern such that the combination of the two would cause one of the oscillator to stop spinning, the act is inhibition of that pattern via activation of the pattern that causes it
+-- the drive consists of one or more other such patterns and many more oscillators that could also have the coupling connection whereby their local power is transferred from one state to another
+--- the transformation would cause other such effects to be similarly occurred
+
+there has to be a coupling between every possible oscillator channels driven core and some other core that would reciprocally support the current state
+- the effect and the function of that effect is a pair that have global reach and each global pairing would necessarily have to contain the local connection that makes the conjunction possible
+
+
+
