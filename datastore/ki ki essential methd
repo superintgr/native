@@ -1,0 +1,112 @@
+Framework for the simple group.
+- simple groups are those groups that cannot be broken down any further.
+-- a group contains set of transformations on geometric objects.
+--- the set of transformation represents the group action on some space.
+---- there is a finite number of actions a group can perform on some object where each of them takes different paths and all paths start and end with the same object state.
+----- a group of symmetric actions leave the object unchanged and the collection encodes all possible actions that can be performed on that object with the group structure.
+---- simple groups will have actions that represent some elementary operation in an environment.
+--- for elementary actions the environment provides the methods required for mutating some object's state in that environment.
+-- fundamental is named due to the nature of side-effect free execution of the code.
+- a side-effect free action is one that does not require carrying over residual states for bringing closure to the property.
+
+Building python based action sequences.
+- we define a class structure.
+-- setup the class to contain required computation variables.
+--- instance of the class will obtain some operational information as instance variables during initialization.
+---- a collection of methods defined for the class can have deterministic properties that could be described using dictionary style representation.
+----- parameterizing the collection would enable building an encoding scheme and decoding scheme for their respective applications.
+------ actions are played out inside the environment defined for the object.
+------- a group action must have an actor that could identity, communicate and control the object state via becoming a valid object in the shared subspace.
+------ (take input of maximum size and specified format for running some method at the environment stage.)
+----- (interpret the state produced by the environment as function of the queried state.)
+---- (compute the group action)
+--- (translate the action back into the language of the system)
+-- (compare the changes in state)
+- (record the process with its characteristic outputs).
+
+
+Here is some code exploring:
+
+	environment = Environment()
+
+class Environment:
+    def init(self):
+        self.left = None
+        self.right = None
+
+    def forward(self, input):
+        state, memory = node(input)
+        self.left += memory
+        return state
+
+    def backward(self, output):
+        memory, state = antinode(output)
+        self.right += state
+        return memory
+
+
+## Ignore this part for now:
+    def solve(self, input):
+        action = self.forward(input)
+        output = action / self.left
+        state = self.backward(output)
+        memory = self.right / state
+        central = (self.left + self.right) / memory * 2
+
+
+
+Input causes node produce state.
+Output causes antinode to solve out the original input from output.
+An action that takes input -> output and output can be caused deterministically
+.. for all such reasons by the same constructor, implies a model that constraint
+.. the possible changes in its state after the transform takes place, such that
+.. the object remain valid constructor for that function in future.
+
+
+def node(input):
+    information = encode(input, vocab)
+    state, memory = model(information)
+    return state, memory
+
+def antinode(output):
+    knowledge = decode(output, vocab)
+    memory, state = model(knowledge)
+    return memory, state
+
+
+
+Node is where the minimum change occurs.
+Antinode is the region of maximum displacement.
+
+A set of (node, antinode) pairs describe two state variables.
+- a pair of input-output states could be first node-antinode and at antinode the next input-output pairs will rest on.
+-- Anti(node) ~ antinode locally are equivalent.
+
+
+
+We start with M nodes as our labeled functions.
+- For each node in M, the input given to it will cause one of N antinodes.
+-- N and M are equal and never at the same position.
+--- Prepare M stable function spaces.
+---- An m in M set of nodes is stable if n in N is one of the antinode at the ground state of input injection.
+----- Function of m : max(M) -> argmax(N) and n : argmin(N) -> min(M)
+
+
+
+### Here is a sane attempt ###
+
+Some notes:
+1. no logical flow of error free syste guarantees the truth in their associated form
+2. a flow of information between finite set of integers and if the integers map real objects to real objects, then the flow is a real property of the integers
+3. if an integer has real properties that could be expressed as physical objects having particular characteristics that can be described by some other physical properties then every measurement of such properties constitute a valid programming point.
+
+
+
+actions : (read/write, open/close, file/content, byte/string, line/character, word/passage, page/reference
+    serial/parallel, true/false, left/right, step/hold, move/stop, forward/backward,
+    while/during, at/in, from/on, possible/impossible, however/nonetheless,
+    would/do, continue/break)
+
+THESE ARE JUST BRAIN-JAMMING, HOWEVER I WOULD LIKE THAT LIST AND LISTS LIKE THESE TO BE CONSTRUCTED AND MANAGED BY CONSTRUCTORS THEMSELVES.
+
+tasks : (gather/select, maintain/check, keep/fetch, copy/point, transform/transfer)
