@@ -1,0 +1,16 @@
+A new kind of phenomena.
+- i would like a sound wave generated through my speakers
+-- i dont mind using any method necessary to quickly render a waveform that plays sound accurately
+--- however due to my new decision to take over the lower level tasks explicitly myself, therefore raising an issue in my mind about the quick and dirty approach for getting the waveform generated
+---- it is sufficient when the sound elements are present from the underlying physical states, however I rather not only seek a one-way solution that does not fit my criteria for having satisfied a clean and proper basis from the logical ends,
+----- what i mean is that i dont like large volumes of numbers, especially floating point multi-dimensional array type display whatever the product may be
+---- if i choose to build from scratch (according to my prefered ground level) a system that deals with all-things-audible then what sorts of programming would i be forced to seek?
+--- what about these C code structures in audio programming that cannot be dealt with at higher levels of abstraction such as using python or scripting language for example?
+-- assuming that real-time playback and processing is indeed a main component of any DSP environment, the programming must not define away the shortest possible latency that could be achieved let's say at the assembly level
+- i will investigate more on this topic, pushing towards some optima at the highest of the levels because why not.
+I am going to think about faithfully rendering to disk some waveform first.
+- that waveform cannot be generically built with things like np.linspace/np.sin/etc. or scipy or any large random distribution of signal points
+-- the waveform is just a form and the wave is what we are interested in talking in terms of
+--- wave mechanics should be the language of programmable waveform generators
+---- i do not want to think in terms of data types and blocks or sampling rates etc. since they are unrelated to the scientific discussions nor do they involve computational aspects and all such terminologies are just porochial minds setting up standards in the names of lazy thinking
+----- fundamental objects do not deal with quantities such as samplesize or bit depth or fourier transform (fourier did not consent to this business) etc.
