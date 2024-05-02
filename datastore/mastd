@@ -1,0 +1,39 @@
+import master, memory, meter, mixer
+
+checkpoint = master.load_memory(memory.main.master_loader)
+console = mixer.restore_console(checkpoint)
+dB = meter.amplitude_monitor.get_device()
+
+def run(channel, steps, callback):
+    with dB(channel, callback) as program:
+        time.sleep(steps)
+
+run_length = 1000
+run(console.select_channel['master'], run_length, dB)
+
+linear = console.select_channel['linear']
+linear.set_source('.')
+linear.set_chain(x, 0.6)
+
+
+
+
+Here i go back to environment modeling.
+- environment requires three layers (input, memory, callback)
+-- bìt patterns given as input, processed into lowest memory sizes
+--- using chunks of patterns, memory is searched using sliding data blocks
+---- convolution patterns are stored into chunks of size largest memory blocks
+----- additional empty slots are padded and all shifting processes are completed
+
+
+
+
+
+
+Define functions for all below:
+- convert strings from a plain text file into contiguous bit stream
+-- create batches of bìt patterns
+--- convert patterns into PyTorch tensors
+---- create an MLP network with configurable hidden sizes
+----- predict the bìt patterns using network instances
+------ compute the loss and update parameters
