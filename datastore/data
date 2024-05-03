@@ -1,0 +1,70 @@
+I describe a system.
+- system is a managed collection of institutions and organized behaviors that constitute approach.
+-- individual subscribes to institutions where their collection of managed approaches are subjective considerations that does not require any more organization.
+--- systematic processes are not functions of actions rather approach that summarizes many unit actions.
+---- individual steps are not approaches but rather actions that require singletons selecting approaches instead of summarizing that systems would have to do.
+----- all other properties of system type dynamics constitute collective type static variables.
+------ all available constituting individual attributes would have to consider (not contain) is the degree to which one exclusive property of the individual has to choose from.
+----- systems have to be managed
+---- entities have to be considered
+--- systematic approaches are policy oriented
+-- specific preferences are opportunistic
+- systems cannot operate without subsystems
+integer does not require fractions
+
+I model computation accordingly.
+- a collection of physical objects represents the computation variables
+-- the motions of variable objects brings about states
+--- states are defined in terms of possible other variables
+---- variables changed between different periods are processes that can change between the different stages
+----- any stage resulting from changes following from previous stages represents computational processes
+---- computable functions are those whose processes have a non trivial evolution over all the participating components
+--- a set of processes that does not have non trivial dependencies are the result that combine all information coming together into that static event
+-- any two processes that can be distinguished from happening together by at left one other process, is said to have the properties sufficient for information storage
+- if not one but two processes lock-step with each other in reciprocal time can be said to have the ability of processing information.
+
+I define the (change, steady, unique) to be the fundamental set.
+- this set can build any computation network necessary
+-- change is different qualitatively from steady state
+--- steady conditions are different from both unique and dynamic conditions where change is the polar opposite while unique is jointly isolated by definition
+---- unique conditions are those that causes its existence to be considered and therefore defined
+----- any system that can provide a level of differentiation across all three of these categories can support computation
+---- if only two of the three categories are possible, that system can be used to make assertions that the data can only exist in the context that is necessary
+--- if only one of the three is the viable candidate, then it may still be possible to use it to make processes incremental however it depends on whether such processes can identify those types
+-- DONE
+- DONE
+DONE
+
+
+
+Template program:
+
+require a mixing tool that supports analog to digital and digital to analog components
+require a channel bus that manages connections between slaves
+require a master bus that aggregates outputs from slave channels
+
+create a console with processing, sampling and storage information supplied to the constructor node.
+keep the console object as main driver of the programming environment
+
+prepare the channel substrates from console medium
+fit or minimize the levels at master meter only.
+select a range in dB scale for the meter attached at master level
+configure the state of the system to match required gain staging and headroom conditions
+update the master system to confirm the current state as unity and let it run independently in the background.
+
+
+assert the ground state is the program state
+assert the program state is the zero state
+
+start collecting the attendances from master subsystems
+start collecting the attendences from baseline subscribers
+
+if all objects are found and all collections have impulse control, check the unity condition again
+while unity at the same level is possible, clear the gradient information and enable room response to propagate forward.
+
+THIS IS THE MAIN PART IN CURRENT IMAGE:
+- for any change in phase of the worker channel, if the constructor channel also have the change in phase, check whether the two are connected or separated.
+-- connected state is one where both have the pan position away from the poles at each others side.
+-- disconnects state is when the pan level splits the central overlap by equal and opposite directions.
+--- if the combined pan collides at the 0.5 mark, then both sides are partially exposed where the central limit will be the maximal
+---- for disconnected channels the volume will remain constant for all change in the network until terminal.
