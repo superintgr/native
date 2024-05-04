@@ -11,8 +11,26 @@ def zero(scope):
     Retuns:
         Computation step applied to the elements in the series where all 0's are lowered to -0's and 1's are lowered to 0's where second difference compute the -0's (if called twice) and -1's raised to -0's where third difference yields 1's.
     """
-    pass
-    
+    # pass
+
+    # However the scope is constructed, their algebra whatever level the definition is at, must follow the above.
+    # Which means using the not operation whose transformation at the object level changes the state of the object.
+    # They would say that the memory may not agree always as it samples randomly from the theory of that object level whose computation medium does not have an information medium.
+
+    program scope
+        implict none
+
+        ! Declare explicitly
+        real, dimension(4) :: bit
+
+        ! Define medium
+        bit(0) = -0.0
+        bit(1) = +0.0
+        bit(2) = +1.0
+        bit(3) = -1.0
+
+        print *, bit
+    end program scope
 
 
 
