@@ -1,5 +1,24 @@
 # Collection of points, points of points, associations of pairs
 
+def zero(scope):
+    """The lowest energy state.
+
+    Args:
+        scope : An array containing state properties of one level only.
+        For example, [0, 1, 1, 1] can only be at either [-0, -1, -1, -1] or [1, 0, 0, 0] where no sign indicates the high activations at the respective positions.
+        It must be considered whether the scope encodes static or dynamic state of the objects in the memory.
+
+    Retuns:
+        Computation step applied to the elements in the series where all 0's are lowered to -0's and 1's are lowered to 0's where second difference compute the -0's (if called twice) and -1's raised to -0's where third difference yields 1's.
+    """
+    pass
+    
+
+
+
+
+
+
 def scan():
     """Scans local paths for .* type files.
 
