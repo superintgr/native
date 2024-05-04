@@ -1,20 +1,21 @@
 # Collection of points, points of points, associations of pairs
 
+def scan():
+    """Scans local paths for .* type files.
 
-one = lambda x, y: x is y and y is x
-two = lambda x, y, z: x is y and y is z or z is x
-three = lambda a, b: a == b and isinstance(b, type(a))
+    * ~ [master, track, state, memory]
+    where .master, .track, .state, .memory is typed implicit.
+
+    If any of four files contain any of the others contained items
+    that item is said to be in superposition.
+    If the graphs are missing any of the twice replicated instances (at-least)
+    each of their graph object should incorporate those.
 
 
-successor = lambda number, other: successor(number) is successor(other)
-natural = lambda number: successor(number) is successor(next(number))
-real = lambda number: successor(number) is not natural(number)
 
 
 
-
-#### THE ABOVE CODE ESTABLISHES SOME BASE TRIPLETS WHICH ARE NOT AXIOMS
-
+##### EXTENDED #####
 
 class Native:
     """Native instance model.
