@@ -7,5 +7,22 @@
 
 **Natives**
 
-- `supernatives`
-- `superintegers`
+- `mainstream`
+- `information`
+- `computation`
+- `composition`
+- `measurement`
+- `knowledge`
+- `construction`
+
+**Integers**
+- `native`
+- `mixed`
+- `dense`
+- `composite`
+- `real`
+- `super`
+- `abstract`
+- `informal`
+- `possible`
+- `impossible`
