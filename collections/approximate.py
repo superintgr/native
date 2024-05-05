@@ -40,30 +40,12 @@ def approximate_constructor(input_state, output_state, epsilon):
 
 
 # It is very easy today !! but i shall incentivise a structure first
-struct {
-    int mainstream : index with valid integer,
-    valid image : vector with anti-node sequence,
-    sequence program : array containing implicit parameters,
-    implicit picture : pointer series whose product yields another pointer,
-    series elaboration : tensor of rank equal to 3+ level picture state,
-    storage github : media containing the stream master,
-    array master : array with ordered sequence of node-antinode pairs whose console is a complete graph,
-} channel;
+"""Recently
+(1) Substrate object was written with a console object attached to it as device for processing signals.
+(2) I will add a method via which a constructor could be approximated from given input/output states.
+(3) Fixed point layer is used for first mapping the input state to the intermediate code and then another intermediate code represents the target state.
+(4) Translating external states to implicit representations of their causal drives can solve for the mapping task in question.
+(5) Object code serialization, layer optimization, testing consistency for approximated constructors and all such utility tasks are going to be defined.
+(6) Additionally I have defined a module class which currently is very messy, although provides the general recording, tracing, tracking opportunity when subclassed into tasks.
+"""
 
-class Image:
-    def __init__(self, observer, device):
-        self.observer = observer
-        self.device = device
-        self.complex = master.add_node(self)
-        self.simple = master.add_node(self.to(device))
-
-        del None # Hold onto it for now!
-
-        master.add_edge(self.device, device)
-        del observer
-        master.add_edge(self.simple, self.complex)
-        del device
-        
-        self = master
-        self.device.to(master)
-        yield self
