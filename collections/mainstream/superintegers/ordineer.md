@@ -1,11 +1,6 @@
 # ordineer
 > ordinary + engineering $\to$ _ordered_ + `engine` $\to$ **ordinal** + _integer_ - `engine`
 
-**Named Integer**
+**Named Objects**
 
-- **native**
-- **mixed**
-- **dense**
-- **real**
-- **super**
-- **abstract**
+- 
