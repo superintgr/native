@@ -37,3 +37,33 @@ def approximate_constructor(input_state, output_state, epsilon):
 (7) Device containing the cloned attribute as node property which is paired with incoming edge from the master graph applies transformation on the implied property from master to produce the same edge reflected back.
 (8) Approximating a constructor is not defined here, although the symbolic expression could work too.
 """
+
+
+# It is very easy today !! but i shall incentivise a structure first
+struct {
+    int mainstream : index with valid integer,
+    valid image : vector with anti-node sequence,
+    sequence program : array containing implicit parameters,
+    implicit picture : pointer series whose product yields another pointer,
+    series elaboration : tensor of rank equal to 3+ level picture state,
+    storage github : media containing the stream master,
+    array master : array with ordered sequence of node-antinode pairs whose console is a complete graph,
+} channel;
+
+class Image:
+    def __init__(self, observer, device):
+        self.observer = observer
+        self.device = device
+        self.complex = master.add_node(self)
+        self.simple = master.add_node(self.to(device))
+
+        del None # Hold onto it for now!
+
+        master.add_edge(self.device, device)
+        del observer
+        master.add_edge(self.simple, self.complex)
+        del device
+        
+        self = master
+        self.device.to(master)
+        yield self
