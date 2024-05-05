@@ -33,6 +33,21 @@ def zero(scope):
     end program scope
 
 
+# Random searches and random drives
+def new_correlate(random):
+    drives, searches = random.from_implicit()
+    # drivers that would regulate the searches in a random basis would be inhibited in their capacity to disturb the balance in the drives associated with the internal random search (random module).
+    # the filtering of new correlates from accidental correlated sequences determine the basis for external sensory samplers of motor functions.
+    # !! declare construction process explicitly
+    # for drive enabling search in searches, check if search contradicts the existence of random module first
+    # for search in searches, for driver in explicit construction, collect the state of internal constructors whose random search must enable the random drive
+    # for random in drivers, for driver in internal searches, transform the random module with balancing criteria from internal to external such that the drive for running random module at all remains possible
+    # when there is no inhibition and the code does not break apart, integrate the states of the constructors to the stack supporting series elaboration
+    search, drive = random.from_explicit()
+    for construction in stack:
+        balance = construction - search + drive
+        yield balance
+        
 
 
 
