@@ -49,3 +49,15 @@ def approximate_constructor(input_state, output_state, epsilon):
 (6) Additionally I have defined a module class which currently is very messy, although provides the general recording, tracing, tracking opportunity when subclassed into tasks.
 """
 
+
+"""Universal Quantum Computer
+
+(M) two-state observables: {n[i]} (i in Z[:i])
+(S) two-state memory elements: {m[i]} (i in Z[:])
+(X) pointer on infinite tape: {x[i]} (i in Z[:])
+
+Simultaneous vector <x ~ n ~ m> : <x ~ n[0], n[1], ..., n[M - 1] ~ ..., m[-1], m[0], m[1], ...>
+
+Evolution of the state vector <psi(n++ * T) ~ U[:, n] * psi(0)>
+Unitary operator (U) = U * U[~] = 1 = U[~] * U
+"""
