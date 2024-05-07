@@ -92,4 +92,26 @@ changelog = [
     note application regarding .. in change log (new),
     jist on regular network .. in change log (new),
     universals as list (new),
+    3b1b ~ tensor exponents .. solution to exponential properties in a system,
+    copy is a dangerous thing to forget or not know about,
 ]
+
+
+"""importation = computation - transformation
+
+(0) importing something to a computation task
+(1) imported products yield the characteristic programs
+(2) mutation of imported products is not possible from the computation context
+(3) a copy of the product can be mutated as far as the permutation involving the copy allows,
+(4) if the information that allows importation is possible, that information does not guarantee the imported knowledge to be usable,
+(5) if the transformation on the imported knowledge is not possible, it is possible to copy the object and annotate their impossible mutability condition,
+(6) if copying could not be done, then no information can exits
+
+extended discussion:
+(0) suppose a superinteger is possible with assertion in a program,
+(1) the code is coded in such a way that assertion on that knowledge implies other knowledge,
+(2) the implication is programmed to be sought,
+(3) the knowledge will be represented via a graph and regular networks of nodes are asserted statements,
+(4) programming the network is to program statements whose evaluation establishes connection between two or more nodes,
+(5) language used for the graph involves the operation involving reading and writing, checking and modifying, counting and summing, terminating and existing,
+"""
