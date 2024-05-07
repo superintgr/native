@@ -61,3 +61,35 @@ Simultaneous vector <x ~ n ~ m> : <x ~ n[0], n[1], ..., n[M - 1] ~ ..., m[-1], m
 Evolution of the state vector <psi(n++ * T) ~ U[:, n] * psi(0)>
 Unitary operator (U) = U * U[~] = 1 = U[~] * U
 """
+
+"""exportation = export + transport
+(1) typically import statement brings the referred name to the code environment,
+(2) in using external scope the imported names imply features that is composed outside its knowledge,
+(3) a function that imports one named instance and uses their namedspaces would export the product
+(4) imports are transport - exportation
+
+For programming certain motion where there is a resource which can be harnessed via integration of third party services:
+(0) prepare a substrate (slave/master console)
+(1) make contact with the provider (slave/slave console)
+(2) attach the medium (master/slave console)
+(3) transfer assets into channel (right/left console)
+(4) transport the product to console (master/left console)
+(5) transfer assets into channel (left/right console)
+(6) detach the medium (slave/master console)
+(7) make contact with the provider (slave/slave console)
+(8) destroy a substrate (master/slave console)
+"""
+
+changelog = [
+    string library design where subtraction is reversible,
+    a model of arithmetic operators on their positional equivalence logic,
+    levels of neural network probes ranging from hyper level to inner level substrate actions in parallel,
+    neural medium and their constructor theoretic implication,
+    automatic gradient vs automatic differentiation tools,
+    package dependencies expressed in terms of possible imports and exports (new),
+    mod script change logs (new),
+    gradient computation and reversible properties in simultaneous changes,
+    note application regarding .. in change log (new),
+    jist on regular network .. in change log (new),
+    universals as list (new),
+]
