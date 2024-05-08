@@ -115,3 +115,55 @@ extended discussion:
 (4) programming the network is to program statements whose evaluation establishes connection between two or more nodes,
 (5) language used for the graph involves the operation involving reading and writing, checking and modifying, counting and summing, terminating and existing,
 """
+
+
+image = {
+    left : [M + S],
+    right : [M - S],
+    mid : [L + R],
+    side : [L - R],
+}
+
+def forward(node, function):
+    return function(node)
+
+def backward(antinode, function):
+    return function(antinode)
+
+"""Network of Images
+
+(-1) get constructor for left, right task
+(-0) set construction task {left -> right} and {right -> left}
+(+0) get constructor for mid, side task
+(+1) set construction task {mid -> side} and {-side -> mid}
+
+(-1) as left -> right, mid + side -> mid - side
+(-0) if left + right is mid possible, set {side -> -side}
+(+0) as mid -> side, left - right -> left + right
+(+1) if mid - side is right possible, set {-mid -> mid}
+"""
+
+
+taskf(i), a, b) := (0, 1, f(i), f, i, 0)
+THIS IMPLIES THAT THE RESULT OF TASK FOR f(i) STORES
+THE RESULT IN B FOR f EVALUATED ON a.
+
+reversibility requires that, if b is not initalized with 0, then the results of a should not overwrite b rather combine in some reversible way.
+so the function prepared at f(i) whose resulting program processes 'a' with f on some output variable 'b':
+-1x modify the function (f) to compute sum and difference for every input
+-0x result state corresponds to a pair [left, right] where right contains the updated variable
++0x for left side containing all the recent changes reflected on right, any content of b through computation shifts into some proportion yielding at left
++1x from right side any yield will partially conserved by the left-adjacent node.
+
+
+"""Q Programs (Generators)
+
+(-1, -0), (+0, +1)
+     (-0, +0)
+       (0)
+       (1)
+    (+1, -1)
+(+1, +0), (-0, -1)
+       
+
+"""
