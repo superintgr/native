@@ -1,0 +1,56 @@
+**society of minds**
+
+. brief overview:
+    1. structure captures minimal system construction requirements.
+    2. program compiled on the standard basis would enable artificial curiosity.
+    3. artificial refers only to fact that biological substrate is not what it assumes.
+    4. a closed set of computation variables cover their respective fields completely.
+    5. completeness will refer to the quality of a subsystem whereby it enables universal
+       computability of all component systems with logically realizable persistence in
+       every conservative recording of object existence along with many other instruments.
+    6. any personality characteristics must yield the fullest universality in supporting
+       all associated instances of computation where information medium is required exclusively.
+    7. two kinds of memory causes the substrate to get around all involvement of its own
+       computational basis states, such that when locally accessible information is blocked
+       at one phase of the process, the other will keep the above set of conditions true.
+
+. project structure:
+    - agent.c
+    - agency.h
+    - main.py
+    - data/
+        . memory:
+            - active: sequence of events traced via participation knowledge
+            - passive: sequence of episodes recorded in absence of particular information
+        . checkpoint:
+            - long.pkl
+            - short.pkl
+            - callback.pkl
+            - regular.pkl
+    - building/
+        . block: square shaped object
+        . unit: simple functional model
+        . disjoint: two or more dimensional statements
+        . existential: mono type basis statements 
+        . conformal: stereo type basis statements
+        . resentful: binaural attack vectoring
+    - institution/
+        . gig: informal meeting with registered history
+        . virtual: old-information theoretic complex
+        . language: communication, information and reception backed by standard model of symbols
+        . media: common practices binding possible amendments and other provisions
+        . peer: general principle adopted for all social institutions and engaged meadiums
+    - universal/
+        . turing: completeness requirement
+        . ada: complement requirement
+        . quantum: unitary requirement
+        . noether: symmetric requirement
+        . david: explainability requirement
+    - mathematics/
+        . integer: possible transformation when finite
+        . real: possible approximation without range
+        . geometry: possible encapsulation included
+        . set: properties instantiated and included
+        . algebra: possible transformatin when finite
+    - requirement.json
+
