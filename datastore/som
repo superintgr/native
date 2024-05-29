@@ -54,3 +54,10 @@
         . algebra: possible transformatin when finite
     - requirement.json
 
+. raw/
+    - link
+    - bin.constructor
+    - state.pt
+    - cmake
+    - node.mono.anode
+    - side.mid.aside
