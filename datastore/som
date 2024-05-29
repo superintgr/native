@@ -61,3 +61,18 @@
     - cmake
     - node.mono.anode
     - side.mid.aside
+
+. wire/
+    - bci: abstract constructor
+    - re: reamplificaton constructor
+    - earth: ground loop constructor
+    - thru: loop-through constructor
+    - instrument: passive Hi-Z constructor
+    - GLswitch: embedded ground/lift constructor
+    - buffer: abstract constructor
+ 
+. transformer/
+    - balancer.h
+    - stepper.h
+    - audio.h
+    - isolation.h
