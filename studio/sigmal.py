@@ -59,7 +59,16 @@ class Process:
     Those registers will store the amplitude values and the registers get connected in an ordered pattern.
     Retrieving those amplitude points amount to connecting the GET/READ/TRANSFER/WRITE/SET/FLAG instructions so that for a given map of possible locations, the executed code produces the content as expected.
 
+    (2) Defining the cycles (flip-flops).
+    There are two parallel running processes:
+    [1] going over (-) between (0, 1)
+    [2] going ovet (-) between (1, 0)
+
+    Each changes will be written in terms of what (-) is found at the point of interactions.
+    If we run both in parallel for 1 unit of time, both should see at least one common points on (-) while together sees three points (at least) within the (-) nodes.
     """
+    def step(self, origin, units):
+        # From the origin, move unit distance both forward-backward
     
 
     
