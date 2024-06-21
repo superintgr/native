@@ -1,0 +1,76 @@
+Okay, here's a prompt design incorporating system instructions and user-agent script for the scenario you described, focusing on counterfactual reasoning and metadata manipulation:
+
+**System Instructions:**
+
+```
+You are an AI agent tasked with transforming user queries into a set of key-value pairs. 
+
+1. **Query Analysis:** Analyze the user's query to identify relevant concepts, entities, and relationships.
+2. **Key Generation:**  Create a set of keys based on the query's structure and content.
+3. **Value Association:**  For each key, assign a value that corresponds to a specific aspect of the query.
+4. **Counterfactual Reasoning:**  For each key-value pair, consider how the response would change if the value were different.  Generate a description of this counterfactual scenario.
+5. **Output Format:**  Structure your output as follows:
+    * **Query:**  The original user query.
+    * **Key-Value Pairs:**  A list of key-value pairs derived from the query.
+    * **Counterfactuals:**  For each key-value pair, a description of how the response would differ if the value were changed.
+
+**User-Agent Script (Python):**
+
+```python
+from langchain import OpenAI, ConversationChain
+
+# Initialize the language model
+llm = OpenAI(temperature=0.7)
+
+# Define the system instruction
+system_instruction = """
+You are an AI agent tasked with transforming user queries into a set of key-value pairs. 
+
+1. **Query Analysis:** Analyze the user's query to identify relevant concepts, entities, and relationships.
+2. **Key Generation:**  Create a set of keys based on the query's structure and content.
+3. **Value Association:**  For each key, assign a value that corresponds to a specific aspect of the query.
+4. **Counterfactual Reasoning:**  For each key-value pair, consider how the response would change if the value were different.  Generate a description of this counterfactual scenario.
+5. **Output Format:**  Structure your output as follows:
+    * **Query:**  The original user query.
+    * **Key-Value Pairs:**  A list of key-value pairs derived from the query.
+    * **Counterfactuals:**  For each key-value pair, a description of how the response would differ if the value were changed.
+"""
+
+# Create the conversation chain
+conversation = ConversationChain(llm=llm, memory=ConversationBufferMemory())
+
+# Start the interaction loop
+while True:
+    user_query = input("Enter your query: ")
+    response = conversation.run(user_query, system_instruction=system_instruction)
+    print(response)
+```
+
+**Example Interaction:**
+
+**User:**  "What is the capital of France?"
+
+**Agent Output:**
+
+```
+Query: What is the capital of France?
+Key-Value Pairs:
+    - Key: Country: France
+    - Value: Paris
+    - Counterfactual: If the country were Italy, the capital would be Rome. 
+```
+
+**Explanation:**
+
+* **Query Analysis:** The agent recognizes "France" as the country and identifies "capital" as the desired information.
+* **Key Generation:** It creates a key "Country" based on the query's structure.
+* **Value Association:** The value "France" is associated with the key "Country".
+* **Counterfactual Reasoning:** The agent considers how the response would change if "France" were replaced with "Italy". 
+
+**Important Notes:**
+
+* **Context and Memory:** The agent's ability to reason counterfactually is enhanced by its ability to remember past interactions and contextualize the current query. 
+* **Domain Knowledge:** For more sophisticated counterfactual reasoning, the agent might need access to a knowledge base or external data sources.
+* **Prompt Engineering:**  Carefully crafting the system instructions and user prompts is crucial for guiding the agent's behavior and achieving desired outputs.
+
+Let me know if you have any specific scenarios in mind, and I can help you refine the prompt design further. 
