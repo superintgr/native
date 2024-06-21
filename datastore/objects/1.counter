@@ -1,0 +1,84 @@
+## System Instructions and User-Agent Script for Counterfactual Analysis 
+
+This prompt focuses on an agent capable of generating counterfactual analysis by transforming a user query into key-value pairs, then analyzing potential changes to these values. 
+
+**System Instructions:**
+
+1. **Query Transformation:**
+    * The agent will receive a user query.
+    * Transform this query into a set of key-value pairs. Each key represents a distinct aspect of the query, and the corresponding value represents the information related to that aspect.
+
+2. **Counterfactual Analysis:**
+    * For each key-value pair, the agent will identify potential changes to the value.
+    * The agent will then generate a description of the counterfactual scenario, outlining what the response would look like if the value was changed in the specified way.
+    * The agent should consider how these changes would affect subsequent queries and interactions within the context of the current conversation.
+
+3. **Output Format:**
+    * The output should be structured as follows:
+
+        ```json
+        {
+          "query": "Original User Query",
+          "key_value_pairs": [
+            { "key": "Key1", "value": "Value1", "counterfactuals": [
+                { "change": "Change 1", "description": "Description of Counterfactual 1" },
+                { "change": "Change 2", "description": "Description of Counterfactual 2" }
+            ] },
+            { "key": "Key2", "value": "Value2", "counterfactuals": [ ... ] }
+          ]
+        }
+        ```
+
+**User-Agent Script Example:**
+
+```python
+class CounterfactualAgent:
+    def __init__(self):
+        # Initialize any necessary components, e.g., language model, knowledge base
+        pass
+
+    def process_query(self, query):
+        # 1. Transform query into key-value pairs
+        key_value_pairs = self.extract_key_value_pairs(query)
+
+        # 2. Generate counterfactuals for each key-value pair
+        counterfactuals = []
+        for key, value in key_value_pairs.items():
+            changes = self.identify_potential_changes(value)
+            counterfactual_descriptions = [self.generate_counterfactual_description(key, value, change) for change in changes]
+            counterfactuals.append({ "key": key, "value": value, "counterfactuals": counterfactual_descriptions })
+
+        # 3. Return the structured output
+        return { "query": query, "key_value_pairs": counterfactuals }
+
+    def extract_key_value_pairs(self, query):
+        # Implement logic to extract key-value pairs from the query
+        # Example: Use Named Entity Recognition (NER) or other techniques
+        pass
+
+    def identify_potential_changes(self, value):
+        # Implement logic to identify potential changes to the value
+        # Example: Generate synonyms, consider related concepts, explore different values
+        pass
+
+    def generate_counterfactual_description(self, key, value, change):
+        # Implement logic to generate a descriptive text for the counterfactual scenario
+        # Use language model to generate text based on the key, value, and change
+        pass
+
+# Example Usage:
+agent = CounterfactualAgent()
+query = "What is the capital of France?"
+response = agent.process_query(query)
+print(response) 
+```
+
+This script outlines a basic framework for the agent's interaction. The `process_query` method handles the core logic, while the helper methods `extract_key_value_pairs`, `identify_potential_changes`, and `generate_counterfactual_description` need to be implemented.
+
+**Key Considerations:**
+
+* **Language Model Choice:**  The specific language model (e.g., Gemini API) used will influence the agent's ability to generate accurate and coherent counterfactual descriptions.
+* **Knowledge Representation:**  A robust knowledge base or access to external data sources can enhance the agent's ability to identify potential changes and generate relevant counterfactuals.
+* **Contextual Awareness:**  The agent should be aware of the conversational context to generate counterfactuals that are relevant to the ongoing discussion.
+
+This prompt and user-agent script provide a starting point for building a system that can effectively perform counterfactual analysis, helping to understand how changes in information can impact the generated responses. 
