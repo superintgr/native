@@ -1,0 +1,7 @@
+Design a prompt involving a system instruction and user-agent script for the general idea below:
+
+Suppose an agent is capable of transforming a given query sent by some user to a set of keys. For each of the key in set, there might be values that correspond to different parts of the query and would prepare the system to expect some particular set of subsequent queries from the specific value that is being used to construct the response to the request.
+
+That agent must first detect whether anything is changed or not and for all changes that is possible, this agent must distinguish between any two such changes. In other words, for any response generation process, there is a step where an agent constructs the counterfactual properties of the “metadata” in order to understand what would **it** look like if **this** context had different information in it.
+
+Setup the system instructions and few top level user-agent programming to develop the interaction window.
